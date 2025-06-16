@@ -1,0 +1,12 @@
+names:
+- sepeda
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: sepeda-yfrql
+  url: https://universe.roboflow.com/transportasi-h7ccf/sepeda-yfrql/dataset/1
+  version: 1
+  workspace: transportasi-h7ccf
+test: /content/Sepeda-1/test/images
+train: /content/Sepeda-1/test/images
+val: /content/Sepeda-1/test/images
