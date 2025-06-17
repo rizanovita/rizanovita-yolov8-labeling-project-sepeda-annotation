@@ -44,7 +44,7 @@ Dataset dibuat dan dilabeli secara manual menggunakan Roboflow, lalu diekspor da
 
 > ⚠️ Gambar & label hanya digunakan untuk keperluan edukasi dan demonstrasi portofolio.
 
-![Contoh Labeling](data/sefcjfjhkojsdh124jhdf4.jpg)
+![Contoh Labeling](data/download.jpg)
 
 ---
 
@@ -67,7 +67,7 @@ E0000 00:00:1750083699.068012   30619 cuda_dnn.cc:8310] Unable to register cuDNN
 E0000 00:00:1750083699.074280   30619 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
 Overriding model.yaml nc=80 with nc=1
 
-![Contoh Labeling](data/screenshot-1750081792930.png)
+![Contoh Labeling](data/screenshot-1750084437603.png)
 
 Transferred 319/355 items from pretrained weights
 TensorBoard: Start with 'tensorboard --logdir runs/detect/train', view at http://localhost:6006/
@@ -197,7 +197,7 @@ albumentations: Blur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(
 Optimizer stripped from runs/detect/train/weights/last.pt, 6.2MB
 Optimizer stripped from runs/detect/train/weights/best.pt, 6.2MB
 
-![Contoh Labeling](data/screenshot-1750081782108.png)
+![Contoh Labeling](data/screenshot-1750084474121.png)
 
 --
 
