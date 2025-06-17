@@ -203,17 +203,21 @@ Optimizer stripped from runs/detect/train/weights/best.pt, 6.2MB
 
 ##🔍 Analisis
 
-Presisi (P) = 0.99: Hampir tidak ada false positive (deteksi salah sangat rendah).
+Presisi (P) = 0.88444: Tingkat false positive rendah (hanya ~11.5% deteksi yang salah).
 
-Recall (R) = 0.786: Model bisa mendeteksi ~78.6% objek yang ada (masih ada false negative).
+Recall (R) = 1: Model berhasil mendeteksi semua objek yang ada (tidak ada false negative).
 
-mAP50 tinggi (0.944): Akurasi deteksi sangat baik pada IoU threshold 50%.
+mAP50 = 0.647: Akurasi deteksi cukup baik pada IoU threshold 50%.
 
-Kinerja Terbaik: Kelas desk lebih konsisten (R=0.857) dibanding chair (R=0.714).
+mAP50-95 = 0.515: Kinerja menurun saat threshold IoU lebih ketat.
+
+--
 
 
 ## Confusion matrix
 ![Contoh Labeling](data/confusion_matrix.png)
+
+---
 
 ## Results
 ![Contoh Labeling](data/results.png)
